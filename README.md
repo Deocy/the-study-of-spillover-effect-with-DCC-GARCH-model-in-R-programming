@@ -8,13 +8,21 @@ Use the function describe() and get:
          vars    n mean   sd median trimmed  mad min   max range skew kurtosis   se
          
 Then, test normality with jarque bera test and tes tunit root test with adf.
+
 Combine all these together, we can get TABLE 1 of this paper.
+
 ![image](https://github.com/Deocy/the-study-of-spillover-effect-with-DCC-GARCH-model-in-R-programming/blob/master/table1.png)
 ### 3. DCC-GARCH
 Draw the figure of  Dynamic conditional correlations between WTI volatility and oil companies’ stock price 
+
 ![image](https://github.com/Deocy/the-study-of-spillover-effect-with-DCC-GARCH-model-in-R-programming/blob/master/WTI-BP%20plot.png)
+
 And we can extract the volatility spillovers between the variables, and get TABLE 2 of this paper.
+
 ![image](https://github.com/Deocy/the-study-of-spillover-effect-with-DCC-GARCH-model-in-R-programming/blob/master/table2.png)
+
 We can also draw the total spillover and the ones between any two of the variables.
+
 ![image](https://github.com/Deocy/the-study-of-spillover-effect-with-DCC-GARCH-model-in-R-programming/blob/master/total%20spillover.png)
+
 ![image](https://github.com/Deocy/the-study-of-spillover-effect-with-DCC-GARCH-model-in-R-programming/blob/master/spillover%20overview.png)
