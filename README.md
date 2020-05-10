@@ -25,4 +25,4 @@ We can also draw the total spillover and the ones between any two of the variabl
 
 ![image](total_spillover.png)
 
-![image](spillover%20overview.png)
+![image](spillover_overview.png)
